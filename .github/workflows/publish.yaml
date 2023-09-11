@@ -49,6 +49,12 @@ jobs:
           
       - uses: r-lib/actions/setup-renv@v2
           
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rsconnect 
+ 
       - name: Create manifest.json
         shell: Rscript {0}
         run: |
