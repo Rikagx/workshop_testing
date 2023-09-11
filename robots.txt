@@ -1,1 +1,1 @@
-Sitemap: https://Rikagx.github.io/workshop_testing/sitemap.xml
+Sitemap: https://github.com/Rikagx/workshop_testing/sitemap.xml
